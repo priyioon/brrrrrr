@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>wanna go ghoomi</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<!-- Minecraft Popup -->
+<div id="mcPopup">
+  <div id="mcPopupBox">
+    wtf how did u press yes first
+  </div>
+</div>
+
+<body>
+
+  <!-- Background Overlay -->
+  <div id="game">
+
+    <!-- Logo -->
+    <img src="minecraftlogo.jpg" id="logo" />
+
+
+    <!-- Menu -->
+    <div id="menu">
+
+      <button class="mc-btn yes-btn" onclick="playYes()">
+      Serri Serri mwah :3
+      </button>
+
+      <button class="mc-btn no-btn" onclick="playNo()">
+        Illa Illa Tikka Muchho 
+      </button>
+
+      <button id="picsBtn" class="mc-btn">
+        Click for Pics 😉
+      </button>
+
+    </div>
+
+
+    <!-- Hearts -->
+    <div id="hearts"></div>
+
+
+    <!-- Meme Area -->
+    <div id="popupArea"></div>
+
+
+    <!-- DVD Sticker -->
+    <img
+      src="memes/yes/stickerrevolving.webp"
+      id="dvd"
+    />
+
+<!-- Second DVD Sticker -->
+<img
+  src="memes/yes/stickerrevolving2.webp"
+  id="dvd2"
+/>
+
+
+    <!-- Hehe Page -->
+    <div id="hehePage">
+
+      <h2>Wot pics did u think I meant...</h2>
+
+      <div id="heheBox"></div>
+
+      <button id="closeHehe">Back</button>
+
+    </div>
+
+  </div>
+
+
+  <!-- Meme Box -->
+  <div id="memeBox"></div>
+
+
+  <!-- Background Music (MUST be before script) -->
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+<audio id="clickSound">
+  <source src="click.mp3" type="audio/mpeg">
+</audio>
+
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
